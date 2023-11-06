@@ -70,7 +70,7 @@ body {
     height: 272px;
 }
 
-.image {
+.place-image {
     width: 362px;
     height: 272px;
 
@@ -117,12 +117,12 @@ body {
 
 }
 
-.newtour {
+.new-tour {
     position: absolute;
     top: 0
 }
 
-.newtour-image {
+.new-tour-image {
     position: absolute;
     width: 66px;
     height: 66px;
@@ -131,7 +131,7 @@ body {
     left: 0
 }
 
-.newtour .image-content {
+.new-tour .image-content {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 50px;
@@ -150,6 +150,7 @@ body {
     font-weight: 300;
     font-family: "Source Sans Pro";
     text-align: center;
+    margin-bottom : 0;
 }
 
 .subtitle-description {
@@ -157,7 +158,6 @@ body {
     line-height: 25px;
     color: #99a9b5;
     font-weight: 400;
-    margin-top: 0;
     font-family: "Source Sans Pro";
     text-align: center;
 }
