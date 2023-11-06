@@ -3,17 +3,18 @@
         margin: 96px 12px;
         display: block;
     }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
     .ocean-content{
         margin-right : 0;
     }
-    .mountains-content {
-        margin-right : 0;
+    .content-item{
         margin-top: 102px;
     }
-
-    .forest-content {
-        margin-top: 102px;
-
+    .mountains-content {
+        margin-right : 0;
     }
     .new-tour-image{
     transform: translate(-18%, -18%);
@@ -43,22 +44,7 @@
         height: 250px;
 
     }
-    /* .image-content {
-        font-size: 40px;
-    }
-
-    .f-36>* {
-        font-size: 28px;
-    }
-
-    .content {
-        font-size: 24px;
-    }
-
-    .ipad-button {
-        font-size: 24px;
-    } */
-
+    
     .ipad-cost {
         padding: 16px;
         border-radius: 50%;
