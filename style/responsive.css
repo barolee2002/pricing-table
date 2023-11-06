@@ -25,11 +25,9 @@
     }
     .dark-container {
         width: 100%;
-        height: 100px;
     }
 
     .light-container {
-        height: 100px;
         width: 100%
     }
 
@@ -45,7 +43,7 @@
         height: 250px;
 
     }
-    .image-content {
+    /* .image-content {
         font-size: 40px;
     }
 
@@ -59,7 +57,7 @@
 
     .ipad-button {
         font-size: 24px;
-    }
+    } */
 
     .ipad-cost {
         padding: 16px;
@@ -67,13 +65,13 @@
     }
 
     .cost {
-        font-size: 32px;
+        /* font-size: 32px; */
         margin-top: 18px;
     }
 
-    .pertour {
+    /* .per-tour {
         font-size: 24px;
-    }
+    } */
 
 }
 
@@ -82,42 +80,24 @@
         margin: 102px 8px;
         flex-wrap: wrap;
     }
-    .ocean-content {
-        margin-right : 8px;
-        flex : 48%
+    .content-item{
+        width: 473px;
+        /* flex:32%; */
+
     }
     .mountains-content {
-        margin-right : 8px;
-        margin-top: 102px;
-        flex: 48%;
         margin-top : 0;
         margin-right: 0;
-    }
+    } 
     
     .forest-content {
         margin-top: 102px;
-
-    }
-    .newtour-image{
-    transform: translate(-17%, -16%);
-
-    }
-    .newtour .image-content{
-        transform: translate(14%, -30%);
-    
-        }
-    .forest-content {
-        margin-top: 102px;
-        flex: 100%;
-    }
-
+    } 
     .dark-container {
         width: 100%;
-        height: 100px;
     }
 
     .light-container {
-        height: 100px;
         width: 100%
     }
 
@@ -133,21 +113,25 @@
         height: 250px;
 
     }
+    .cost-container{
+        width: 100px;
+        height: 100px;
+    }
 
-    .image-content {
+    /* .image-content {
         font-size: 40px;
-    }
+    } */
 
-    .f-36>* {
+    /* .f-36>* {
         font-size: 28px;
-    }
+    } */
 
-    .content {
+    /* .content {
         font-size: 24px;
-    }
+    } */
 
     .buy-button {
-        font-size: 24px;
+        /* font-size: 24px; */
         padding: 24px 36px;
         width : 250px;
     }
@@ -161,11 +145,11 @@
     }
 
     .cost {
-        font-size: 32px;
+        /* font-size: 32px; */
         margin-top: 18px;
     }
 
-    .pertour {
+    /* .per-tour {
         font-size: 24px;
-    }
+    } */
 }
