@@ -1,10 +1,13 @@
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 931px) {
     .content-container {
         margin: 96px 12px;
         display: block;
     }
-
+    .ocean-content{
+        margin-right : 0;
+    }
     .mountains-content {
+        margin-right : 0;
         margin-top: 102px;
     }
 
@@ -49,7 +52,6 @@
 
     .ipad-button {
         font-size: 24px;
-        padding: 16px 36px;
     }
 
     .ipad-cost {
@@ -68,24 +70,28 @@
 
 }
 
-@media screen and (max-width: 1366px) and (min-width: 1024px) {
+@media screen and (max-width: 1366px) and (min-width: 933px) {
     .content-container {
         margin: 102px 8px;
+        flex-wrap: wrap;
     }
-
-    .mountains-content {
-        margin-top: 102px;
-    }
-    .mr-8 {
+    .ocean-content {
         margin-right : 8px;
+        flex : 48%
     }
-    .mt-0 {
-        margin-top : 0 !important;
+    .mountains-content {
+        margin-right : 8px;
+        margin-top: 102px;
+        flex: 48%;
+        margin-top : 0;
+        margin-right: 0;
     }
+    
+    
 
     .forest-content {
         margin-top: 102px;
-
+        flex: 100%;
     }
 
     .dark-container {
@@ -123,11 +129,15 @@
         font-size: 24px;
     }
 
-    .ipad-button {
+    .buy-button {
         font-size: 24px;
-        padding: 16px 36px;
+        padding: 24px 36px;
+        width : 250px;
     }
+    .buy-button.forest-button {
+        width : 300px;
 
+    }
     .ipad-cost {
         padding: 16px;
         border-radius: 50%;
