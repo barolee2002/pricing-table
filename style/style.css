@@ -12,41 +12,42 @@ body {
     margin: 100px 175px;
 }
 
-.mountains-content {
+.content-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 12px;
     background-color: #fff;
+    position: relative;
+}
+
+.mountains-content {
+    margin-right: 42px;
 }
 
 .ocean-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 12px;
-    background-color: #fff;
+    margin-right: 42px;
 }
-
-.forest-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #fff;
-}
-
-.ocean-cost {
+.cost-container {
     width: 120px;
     height: 120px;
     border-radius: 60px;
     background-color: #ffffff;
     position: absolute;
-    color: #2196f7;
     z-index: 3;
     transform: translateY(-50%);
+}
+.ocean-cost {
+    color: #2196f7;
 
 }
+.mountain-cost {
+    color: #d74498;
 
+}
+.forest-cost {
+    color: #32ad1e;
+
+}
 .cost {
     font-size: 32px;
     font-family: "Source Sans Pro";
@@ -55,7 +56,7 @@ body {
 
 }
 
-.pertour {
+.per-tour {
     font-size: 16px;
     color: #99a9b5;
     font-family: "Source Sans Pro";
@@ -72,7 +73,7 @@ body {
 .image {
     width: 362px;
     height: 272px;
-    
+
 }
 
 .image-container {
@@ -100,10 +101,25 @@ body {
     text-align: center;
 }
 
+.image-subcontent {
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    color: #b6c6c9;
+    font-weight: 400;
+    top: 65%;
+    left: 50%;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    transform: translate(-50%, -60%);
+
+
+}
 
 .newtour {
     position: absolute;
-    top :0
+    top: 0
 }
 
 .newtour-image {
@@ -141,6 +157,7 @@ body {
     line-height: 25px;
     color: #99a9b5;
     font-weight: 400;
+    margin-top: 0;
     font-family: "Source Sans Pro";
     text-align: center;
 }
@@ -173,33 +190,15 @@ body {
 
 
 
-.mountain-cost {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    background-color: #fff;
-    position: absolute;
-    color: #d74498;
-    z-index: 3;
-    transform: translateY(-50%);
 
-}
-.cost-container:hover{
+
+.cost-container:hover {
     background-color: #2c2e3d;
     cursor: pointer;
 }
 
-.forest-cost {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    background-color: #ffffff;
-    position: absolute;
-    color: #32ad1e;
-    z-index: 3;
-    transform: translateY(-50%);
 
-}
+
 .buy-button {
     display: flex;
     flex-wrap: wrap;
@@ -218,41 +217,47 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .button {
     display: flex;
     justify-content: center;
     padding: 32px 36px;
-
+    bottom : 0;
+    margin-bottom: 12px;
+    align-items: flex-end;
+    align-self: flex-end;
+    
 }
 
 .ocean-button {
     color: #2196f7;
     border: 1px solid #2196f7;
 }
+
 .ocean-button:hover {
     background-color: #2196f7;
-    color : #fff;
+    color: #fff;
     border: none
-
 }
+
 .mountain-button {
     color: #6c136f;
-    border : 1px solid #6c136f;
+    border: 1px solid #6c136f;
 }
+
 .mountain-button:hover {
-    color : #fff;
+    color: #fff;
     background-color: #6c136f;
     border: none
-
 }
 
 .forest-button {
     color: #33cc33;
     border: 1px solid #33cc33;
 }
+
 .forest-button:hover {
-    color : #fff;
+    color: #fff;
     background-color: #33cc33;
     border: none
-
 }
